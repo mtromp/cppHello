@@ -1,3 +1,10 @@
 cmake_minimum_required (VERSION 2.6)
 project (CppHello)
-add_executable(bin/Hello Hello/Hello.cpp)
+
+configure_file (
+  "${PROJECT_SOURCE_DIR}/HelloConfig.h.in"
+  "${PROJECT_BINARY_DIR}/HelloConfig.h"
+)
+ 
+
+add_executable(Hello Hello.cpp)
