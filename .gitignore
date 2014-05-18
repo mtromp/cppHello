@@ -1,6 +1,8 @@
+.DS_Store
 CMakeCache.txt
 CMakeFiles
 *~
+*.a
 HelloConfig.h
 Makefile
 cmake_install.cmake
