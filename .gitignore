@@ -7,3 +7,8 @@ HelloConfig.h
 Makefile
 cmake_install.cmake
 Hello
+*Test
+Testing
+*/Testing
+*.cmake
+

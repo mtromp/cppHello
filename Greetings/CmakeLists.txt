@@ -1,1 +1,0 @@
-add_library(Greetings Greetings.cpp)
