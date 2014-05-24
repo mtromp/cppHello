@@ -15,6 +15,7 @@ set (HELLO_VERSION_MINOR 0)
 
 # Greetings
 include_directories(
+  "${PROJECT_BINARY_DIR}"
   "${PROJECT_SOURCE_DIR}/Greetings"
 )
 add_subdirectory(Greetings)
