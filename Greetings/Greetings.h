@@ -6,7 +6,7 @@ using namespace std;
 
 class Greetings
 {
-  public:
+public:
     string hello();
 };
 

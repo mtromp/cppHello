@@ -17,8 +17,10 @@ set (HELLO_VERSION_MINOR 0)
 include_directories(
   "${PROJECT_BINARY_DIR}"
   "${PROJECT_SOURCE_DIR}/Greetings"
+  "${PROJECT_SOURCE_DIR}/GildedRose"
 )
 add_subdirectory(Greetings)
+add_subdirectory(GildedRose)
 
 configure_file (
   "${PROJECT_SOURCE_DIR}/HelloConfig.h.in"
@@ -26,5 +28,5 @@ configure_file (
 )
 
 add_executable(Hello Hello.cpp)
-target_link_libraries (Hello Greetings)
+target_link_libraries (Hello Greetings GildedRose)
 

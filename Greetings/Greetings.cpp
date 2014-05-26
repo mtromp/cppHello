@@ -2,5 +2,5 @@
 
 string Greetings::hello()
 {
-  return "Hello, world!";
+    return "Hello, world!";
 }

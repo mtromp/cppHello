@@ -1,0 +1,7 @@
+add_library(GildedRose GildedRose.cpp)
+add_executable(GildedRoseTextTests GildedRoseTextTests.cpp)
+add_executable(GildedRoseUnitTests GildedRoseUnitTests.cpp)
+add_test(GildedRoseUnitTests GildedRoseUnitTests)
+
+TARGET_LINK_LIBRARIES(GildedRoseTextTests GildedRose)
+TARGET_LINK_LIBRARIES(GildedRoseUnitTests GildedRose gtest pthread)
