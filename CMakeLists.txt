@@ -7,12 +7,6 @@ ENABLE_TESTING()
 set (HELLO_VERSION_MAJOR 1)
 set (HELLO_VERSION_MINOR 0)
 
-# Where Google Test's .h files can be found.
-#set(gtest_DIR "/Users/rj/gtest-1.7.0")
-#include_directories(
-#  ${gtest_DIR}/include
-#  ${gtest_DIR})
-
 # Greetings
 include_directories(
   "${PROJECT_BINARY_DIR}"

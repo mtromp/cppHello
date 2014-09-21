@@ -11,4 +11,6 @@ Hello
 Testing
 */Testing
 *.cmake
+GildedRose/GildedRoseTextTests
+GildedRose/GildedRoseUnitTests
 
