@@ -112,7 +112,7 @@ TEST_F(GildedRoseTest, BackstagePassIncreaseInQualityBy3Inside5Days)
     EXPECT_EQ(4, app.items[0]->sellIn);
 }
 
-TEST_F(GildedRoseTest, BackstagePassHaveNoValueAfterTheConcern)
+TEST_F(GildedRoseTest, BackstagePassHaveNoValueAfterTheConcert)
 {
     items.push_back(new Item("Backstage passes to a TAFKAL80ETC concert", 0, 10));
     GildedRose app(items);
